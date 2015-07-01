@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EDF1B281B428B1C006D489D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF1B271B428B1C006D489D /* main.m */; };
+		2EE9A50D1B43C0B40021746C /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9A50C1B43C0B40021746C /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2EDF1B241B428B1C006D489D /* NSDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDF1B271B428B1C006D489D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE9A50B1B43C0B40021746C /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		2EE9A50C1B43C0B40021746C /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2EDF1B271B428B1C006D489D /* main.m */,
+				2EE9A50B1B43C0B40021746C /* person.h */,
+				2EE9A50C1B43C0B40021746C /* person.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE9A50D1B43C0B40021746C /* person.m in Sources */,
 				2EDF1B281B428B1C006D489D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +241,7 @@
 				2EDF1B2D1B428B1C006D489D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
